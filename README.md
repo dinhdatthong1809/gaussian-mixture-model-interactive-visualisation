@@ -16,6 +16,9 @@ the model converge.
 - **Soft assignment made visible** — every dot is coloured by blending the
   cluster colours with its membership probabilities, so points in the overlap
   show an in-between colour.
+- **ELBO panel** — charts the ELBO and the log-likelihood after every E and M
+  half-step, with the KL gap between them, so you can see why EM never makes
+  the log-likelihood go down.
 - **English / Vietnamese** interface (English by default).
 
 ## Running locally
